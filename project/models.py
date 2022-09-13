@@ -1,6 +1,6 @@
 from django.db import models
-from bunguo.utils import generate_pk
-from bunguo.base_model import BaseModel
+from core.utils import generate_pk
+from core.base_model import BaseModel
 from user.models import *
 import os
 from django.template.defaultfilters import slugify

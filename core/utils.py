@@ -7,7 +7,7 @@ import random
 from aead import AEAD
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.core.mail import send_mail
-from bunguo import settings
+from core import settings
 
 
 def utc_to_local(utc_dt):

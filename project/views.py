@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
-from bunguo.base_view import BaseViewSet
+from core.base_view import BaseViewSet
 from project.filters import SchoolPriceRangeFilter
 from project.serializers import *
 from rest_framework.decorators import api_view, throttle_classes, permission_classes

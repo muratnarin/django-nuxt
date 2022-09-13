@@ -10,7 +10,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.filters import OrderingFilter
 
 # from project.filters import ContractorPermissionFilter
-from bunguo.utils import in_model_fields
+from core.utils import in_model_fields
 
 
 class CustomPagination(pagination.PageNumberPagination):

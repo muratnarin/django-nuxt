@@ -1,8 +1,8 @@
 import kebabCase from "lodash/kebabCase";
 export default {
   head: {
-    titleTemplate: "%s - Bunguo",
-    title: "Bunguo",
+    titleTemplate: "%s - Django Nuxt",
+    title: "Django Nuxt",
     htmlAttrs: {
       lang: "en",
     },

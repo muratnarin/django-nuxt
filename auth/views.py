@@ -6,10 +6,10 @@ from rest_framework.authtoken.models import Token
 from django.db import transaction
 # import pyotp
 import random
-from bunguo import settings, utils
-from bunguo.utils import get_tokens_for_user
-from bunguo.base_view import BaseViewSet
-from bunguo.utils import send_password_reset_email, send_register_email
+from core import settings, utils
+from core.utils import get_tokens_for_user
+from core.base_view import BaseViewSet
+from core.utils import send_password_reset_email, send_register_email
 from user.models import User, Customer, Parameter, ParameterGroup, Contractor
 from user.serializers import UserSerializer, CustomerSerializer, ParameterSerializer, ParameterGroupSerializer, \
     ParameterDetailSerializer, CustomerDetailSerializer, MyTokenObtainPairSerializer, ContractorSerializer, \

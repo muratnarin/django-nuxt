@@ -1,7 +1,7 @@
 from django.urls import path
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenBlacklistView
 
-from bunguo.base_view import create_view_paths
+from core.base_view import create_view_paths
 from user import views
 
 urlpatterns = [

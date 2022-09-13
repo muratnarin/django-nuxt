@@ -43,7 +43,7 @@ export default {
     message: "Mesaj",
     terms_conditions: "Kullanım Koşulları",
     terms_conditions_text:
-      "Bunguo'nun {terms}, {privacy_policy} ve {user_agreement}'nı kabul ediyorum.",
+      "Django_Nuxt'nun {terms}, {privacy_policy} ve {user_agreement}'nı kabul ediyorum.",
     terms: "Kullanım Koşulları",
     privacy_policy: "Gizlilik Politikası",
     user_agreement: "Kullanıcı Sözleşmesi",
@@ -96,7 +96,7 @@ export default {
     verify_password: "E-posta adresinizi kontrol edin",
     myAccount: "Hesabım",
     summary: "Özet",
-    bannerTitle: "Yurt dışı eğitim olanaklarına Bunguo ile ulaşın",
+    bannerTitle: "Yurt dışı eğitim olanaklarına Django_Nuxt ile ulaşın",
     searchPlaceholder: "Okul, ülke, şehir, vs. ara",
     title_en: "Başlık(EN)",
     title_tr: "Başlık(TR)",

@@ -5,7 +5,7 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from datetime import datetime
 import pytz
 
-from bunguo import utils
+from core import utils
 
 
 

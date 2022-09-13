@@ -44,7 +44,7 @@ export default {
     message: "Message",
     terms_conditions: "Terms & Conditions",
     terms_conditions_text:
-      "I agree to Bunguo's {terms}, {privacy_policy} and {user_agreement}.",
+      "I agree to Django_Nuxt's {terms}, {privacy_policy} and {user_agreement}.",
     terms: "Terms",
     privacy_policy: "Privacy Policy",
     user_agreement: "User Agreement",
@@ -97,7 +97,7 @@ export default {
     verify_password: "Check your email",
 
     summary: "Summary",
-    bannerTitle: "Find your international education on Bunguo",
+    bannerTitle: "Find your international education on Django_Nuxt",
     searchPlaceholder: "Search for schools, countries, cities, etc.",
     title_en: "Title(EN)",
     title_tr: "Title(TR)",

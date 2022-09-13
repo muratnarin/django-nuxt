@@ -8,8 +8,8 @@ from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 from django.db import models, transaction
 
-from bunguo.utils import generate_pk
-from bunguo.base_model import BaseModel
+from core.utils import generate_pk
+from core.base_model import BaseModel
 
 
 class UserManager(BaseUserManager):

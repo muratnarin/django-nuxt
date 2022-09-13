@@ -1,4 +1,4 @@
-from bunguo.base_view import create_view_paths
+from core.base_view import create_view_paths
 from project.views import *
 from django.urls import path
 
@@ -21,10 +21,8 @@ urlpatterns = [
 # edvisor api
 
 
-# from bunguo import jobs
+# from django-nuxt import jobs
 #
 # jobs.start()
 
 # from . import hubspot
-#
-# hubspot.create_contact("Ahmet", "Künyeli", "ahmet@kunyeli.com")
