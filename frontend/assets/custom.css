@@ -1,0 +1,19 @@
+.w-100 {
+  width: 100% !important;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+}
+
+.text-shadow {
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
